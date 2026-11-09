@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(154, 91, 22, 0.08), transparent 32%),
+    #f3efe6;
+}
+
+::selection {
+  background: #ead7b8;
+}
+
+paypal-button,
+paypal-pay-later-button {
+  display: block;
+  width: 100%;
+  min-height: 45px;
+}
+
+.ledger {
+  background-image: linear-gradient(to bottom, transparent 31px, rgba(28, 25, 21, 0.06) 32px);
+  background-size: 100% 32px;
+}
